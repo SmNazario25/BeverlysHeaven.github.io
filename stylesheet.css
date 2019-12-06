@@ -1,0 +1,313 @@
+@charset "utf-8";
+
+body {
+	background: url("images/Back.jpg") no-repeat;
+	margin: 0 !important;
+    padding: 0 !important;
+	font-family: 'Abhaya Libre', serif;
+	color: darkblue;
+  }
+
+.clearboth {
+	clear: both;
+}
+
+.container {
+	background: #E8F7FF;
+	width: 980px;
+	margin: 0px auto;
+	/*#E7FFFF*/
+}
+
+header {
+	width: 980px;
+	height: 310px;
+	margin: 0px auto;
+	background-color: white;
+}
+
+.social {
+	width: 245px;
+	height: 40px;
+	float: left;
+}
+
+.logo {
+	width: 490px; 
+	height: 300px;
+	float: left;
+}
+
+.contactInfo {
+	width: 245px;
+	height: 60px;
+	float: right;
+}
+
+.contactInfo a {
+	color: darkblue;
+	text-decoration: none;
+}
+
+.contactInfo a:hover {
+	color: blue;
+	background-color: lemonchiffon;
+	text-decoration: underline;
+}
+
+.contactInfo a:focus {
+	color: blue;
+	background-color: aliceblue;
+	text-decoration: overline underline;
+}
+
+.contactInfo p {
+	color: darkblue;
+	font-size: 15pt;
+	font-weight: bold;
+	margin: 5px 60px;
+}
+
+nav {
+	background-color: #00ffff;
+	border-style: solid;
+	border-color: darkblue;
+	width: 935px;
+	height: 10px;
+	padding: 10px 20px 30px 20px;
+	text-align: center;
+	font-size: 20pt;
+}
+
+nav a {
+	color: darkblue;
+	text-decoration: none;
+	margin: 0px 30px 0px 30px;
+}
+
+nav a:hover {
+	color: blue;
+	background-color: lemonchiffon;
+	text-decoration: underline;
+}
+
+nav a:focus {
+	color: blue;
+	background-color: aliceblue;
+	text-decoration: overline underline;
+}
+
+.banner {
+	width: 980px;
+	height: 500px;
+}
+
+.bannerImage {
+	width: 380px;
+	height: 380px;
+	margin: 50px 30px 30px 30px;
+	border-style: ridge;
+	border-width: 10px;
+	border-color: darkblue;
+	float: left;
+}
+
+.welcome {
+	background-color: #9fe5ff;
+	text-align: center;
+	width: 460px;
+	height: 400px;
+	margin: 50px 30px 30px 30px;
+	float: right;
+}
+
+.welcome h1 {
+	color: darkblue;
+}
+
+.welcome p {
+	margin: 10px;
+	font-size: 18pt;
+	color: darkblue;
+}
+
+.spacer {
+	background-color: darkblue;
+	width: 980px;
+	height: 20px;
+}
+
+.specials {
+	padding: 0px 10px;
+	width: 960px;
+	height: 524px;
+}
+
+.cookies {
+	margin: 50px 10px 25px;
+	width: 300px;
+	height: 300px;
+	float: left;
+}
+
+.cakes {
+	margin: 50px 10px 25px;
+	width: 300px;
+	height: 300px;
+	float: left;
+}
+
+.specialsFood {
+	margin: 50px 10px 25px;
+	width: 300px;
+	height: 300px;
+	float: left;
+}
+
+.specialsMessage {
+	color: darkblue;
+	margin: 0px 80px;
+	text-align: center;
+	font-size: 20pt;
+}
+
+.catering {
+	background-color: #fff8b4;
+	width: 745px;
+	height: 150px;
+	margin: 60px auto;
+	border-style: outset;
+	border-width: 15px;
+	border-color: #FFF599;
+	text-align: center;
+	font-size: 40px;
+}
+
+.catering a {
+	text-decoration: none;
+	color: darkblue;
+}
+
+.catering a:hover {
+	text-decoration: overline underline;
+}
+
+footer {
+	background-color: darkblue;
+	width: 980px;
+	height: 330px;
+}
+
+.socialFooter {
+	margin: 10px auto;
+	width: 84px;
+	height: 40px;
+}
+
+footer p {
+	text-align: center;
+	color: white;
+	font-size: 18pt;
+}
+
+footer nav {
+	background-color: darkblue;
+	color: white;
+}
+
+footer a {
+	color: white;
+}
+
+.smallLogo {
+	width: 222px;
+	height: 110px;
+	margin: 0px auto;
+}
+
+.copyright {
+	color: white;
+	margin: 12px 10px 0px;
+	text-align: right;
+	font-size: 15pt;
+}
+
+.gallery {
+	width: 980px;
+	margin: 10px;
+	color: darkblue;
+}
+
+.gallery h2 {
+	text-decoration: underline;
+}
+
+.cookiesNav {
+	float: left;
+	margin: 0px 10px;
+	text-align: center;
+}
+.cakesNav {
+	float: left;
+	margin: 0px 50px 0px 80px;
+	text-align: center;
+}
+
+.specialsNav {
+	float: right;
+	margin: 0px 30px 0px 10px;
+	text-align: center;
+}
+
+.specialsServices {
+	width: 980px;
+	color: darkblue;
+}
+
+.specialsServices h1 {
+	text-align: center;
+}
+
+.specialsDesc {
+	text-align: center;
+	color: darkblue;
+}
+
+.specialsDesc p {
+	font-size: 14pt;
+	margin: 0px 20px;
+}
+
+.specialsList {
+	margin: 10px 20px;
+}
+
+.about {
+	text-align: center;
+}
+
+.about p {
+	font-size: 14pt;
+	padding: 30px 0px 60px;
+}
+
+.about a {
+	color: darkblue;
+	text-decoration: none;
+}
+
+.about a:hover {
+	color: blue;
+	background-color: lemonchiffon;
+	text-decoration: underline;
+}
+
+.about a:focus {
+	color: blue;
+	background-color: aliceblue;
+	text-decoration: overline underline;
+}
+
+.contactForm {
+	margin: 20px 0px 50px
+}
